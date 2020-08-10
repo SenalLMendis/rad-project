@@ -14,24 +14,41 @@ body {
     background-repeat: no-repeat;
 }
 
-#mainlogo > img {
-    height: 10em;
-    vertical-align: none;
+#mainlogo {
+    max-width: 350px;
+    min-width: 100px;
+    margin: auto;
+}
 
+#mainlogo > img {
+    height: 7.5em;
+    vertical-align: none;
+}
+
+.form {
+    background-color: black;
+    max-width: 550px;
+    margin: auto;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    color: blanchedalmond;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 5px;
 }
 
 .form-group {
-    clear: left;
-    width: 50%;
+    width: 75%;
+    margin: auto;
 }
 
 .form-check {
-    width: 50%;
+    width: 75%;
+    margin: auto;
 }
 
 .form-button {
-    width: 50%;
-}
-
-.form > form > .form-group{
+    width: 75%;
+    margin: auto;
 }
