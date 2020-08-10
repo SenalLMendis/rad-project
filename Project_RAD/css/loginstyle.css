@@ -18,7 +18,7 @@ body {
     max-width: 350px;
     min-width: 100px;
     margin: auto;
-    padding-top: 5%;
+    padding-top: 2.5%;
     padding-bottom: 5%;
 }
 
@@ -31,32 +31,33 @@ body {
     background-color: rgb(151, 203, 81);
     max-width: 55%;
     min-width: 45%;
+    height: 50%;
     margin: auto;
     font-weight: bold;
     text-align: center;
     position: relative;
-    color: blanchedalmond;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    color: rgb(10, 148, 67);
+    padding-top: 2.5%;
     border-radius: 10px;
+    margin-bottom: 10%;
 }
 
 .form-group {
     width: 75%;
     margin: auto;
-    margin-top: 5%;
+    margin-bottom: 2.5%;
 }
 
 .form-check {
     width: 75%;
     margin: auto;
-    margin-top: 5%;
+    margin-top: 2.5%;
 }
 
 .form .form-button {
-    width: 25%;
+    width: 35%;
     margin: auto;
     font-weight: bolder;
-    margin-top: 5%;
-    margin-bottom: 2.5%;
+    margin-top: 2.5%;
+    margin-bottom: 1%;
 }
