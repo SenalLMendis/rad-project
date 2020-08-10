@@ -7,7 +7,6 @@ html {
 }
 
 body {
-    background-color: black;
     background-image: url(images/lg-background-login.jpg);
     background-size: cover;
     position: relative;
@@ -19,6 +18,8 @@ body {
     max-width: 350px;
     min-width: 100px;
     margin: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 #mainlogo > img {
@@ -27,29 +28,35 @@ body {
 }
 
 .form {
-    background-color: black;
-    max-width: 550px;
+    background-color: rgb(151, 203, 81);
+    max-width: 55%;
+    min-width: 45%;
     margin: auto;
     font-weight: bold;
     text-align: center;
     position: relative;
     color: blanchedalmond;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    border-radius: 5px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-radius: 10px;
 }
 
 .form-group {
     width: 75%;
     margin: auto;
+    margin-top: 5%;
 }
 
 .form-check {
     width: 75%;
     margin: auto;
+    margin-top: 5%;
 }
 
-.form-button {
-    width: 75%;
+.form .form-button {
+    width: 25%;
     margin: auto;
+    font-weight: bolder;
+    margin-top: 5%;
+    margin-bottom: 2.5%;
 }
