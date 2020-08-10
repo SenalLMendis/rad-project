@@ -1,0 +1,37 @@
+html {
+    height: 100%;
+}
+
+* {
+    font-family: 'Century Gothic', Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: black;
+    background-image: url(images/lg-background-login.jpg);
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+#mainlogo > img {
+    height: 10em;
+    vertical-align: none;
+
+}
+
+.form-group {
+    clear: left;
+    width: 50%;
+}
+
+.form-check {
+    width: 50%;
+}
+
+.form-button {
+    width: 50%;
+}
+
+.form > form > .form-group{
+}
