@@ -26,19 +26,6 @@ body {
     clear: both;
 }
 
-.btn-group-vertical {
-/*background-color: teal;*/
-height: fit-content;
-margin: auto;
-}
-
-.btn-group-vertical > a {
-    height: fit-content;
-    width: 85px;
-    text-align: center;
-    margin-top: 5%;
-}
-
 .form {
     background-color: rgb(151, 203, 81);
     max-width: 55%;
@@ -51,7 +38,7 @@ margin: auto;
     color: rgb(10, 148, 67);
     padding-top: 2.5%;
     border-radius: 10px;
-    margin-bottom: 10%;
+    margin-bottom: 2.5%;
 }
 
 .form-group {
@@ -74,12 +61,33 @@ margin: auto;
     margin-bottom: 1%;
 }
 
-@media (max-width : 500px) {
-    #mainlogo > img {
-        float: right;
-    }
+.form .btn-link {
+    width: 35%;
+    margin: auto;
+    margin-top: 2.5%;
+    margin-bottom: 1%;
+    color: white;
+}
 
-    .btn-group-vertical {
-    margin-left: 0px;
+.buttons {
+    /*background-color: teal;*/
+    height: fit-content;
+}
+    
+.buttons > a {
+    height: fit-content;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 5%;
+}
+
+@media (max-width : 500px) {
+    body {
+        background-image: url(images/md-background-login.jpg);
+        background-size: cover;
+        position: relative;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
     }
+    
 }
