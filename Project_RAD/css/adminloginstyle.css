@@ -1,0 +1,130 @@
+html {
+    height: 100%;
+}
+
+* {
+    font-family: 'Century Gothic', Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url(images/xl-background-adminlogin.jpg);
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#mainlogo {
+    padding-top: 2.5%;
+    padding-bottom: 5%;
+}
+
+#mainlogo > img {
+    height: 10em;
+    vertical-align: none;
+    margin: auto;
+    clear: both;
+}
+
+.title h3{
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.form {
+    background-color: #0080ff;
+    max-width: 55%;
+    min-width: 45%;
+    height: 50%;
+    margin: auto;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    color: #002952;
+    padding-top: 2.5%;
+    border-radius: 10px;
+    margin-bottom: 2.5%;
+}
+
+.form-group {
+    width: 75%;
+    margin: auto;
+    margin-bottom: 2.5%;
+}
+
+.form-check {
+    width: 75%;
+    margin: auto;
+    margin-top: 2.5%;
+}
+
+.form .form-button {
+    width: 35%;
+    margin: auto;
+    font-weight: bolder;
+    margin-top: 2.5%;
+    margin-bottom: 1%;
+}
+
+.form .btn-link {
+    width: 35%;
+    margin: auto;
+    margin-top: 2.5%;
+    margin-bottom: 1%;
+    color: white;
+}
+
+.buttons {
+    /*background-color: teal;*/
+    height: fit-content;
+}
+    
+.buttons > a {
+    height: fit-content;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 5%;
+}
+
+@media (max-width : 500px) {
+    body {
+        background-image: url(images/md-background-adminlogin.jpg);
+        background-size: cover;
+        position: relative;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    .form {
+        max-width: 80%;
+        margin: auto;
+    }
+
+    .buttons > a {
+        height: fit-content;
+        text-align: center;
+        margin: auto;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+}
+
+@media (min-width : 501px) and (max-width : 1000px) {
+    body {
+        background-image: url(images/lg-background-adminlogin.png);
+        background-size: cover;
+        position: relative;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }  
+}
+
+@media (min-width : 1001px) {
+    body {
+        background-image: url(images/xl-background-adminlogin.jpg);
+        background-size: cover;
+        position: relative;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+}
