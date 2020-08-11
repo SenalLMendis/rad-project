@@ -89,6 +89,19 @@ body {
         background-repeat: no-repeat;
         background-attachment: fixed;
     }
+
+    .form {
+        max-width: 80%;
+        margin: auto;
+    }
+
+    .buttons > a {
+        height: fit-content;
+        text-align: center;
+        margin: auto;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
 }
 
 @media (min-width : 501px) and (max-width : 1000px) {
