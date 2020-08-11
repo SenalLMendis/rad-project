@@ -15,9 +15,6 @@ body {
 }
 
 #mainlogo {
-    max-width: 350px;
-    min-width: 100px;
-    margin: auto;
     padding-top: 2.5%;
     padding-bottom: 5%;
 }
@@ -25,6 +22,14 @@ body {
 #mainlogo > img {
     height: 7.5em;
     vertical-align: none;
+    margin: auto;
+    clear: both;
+}
+
+.buttons {
+/*background-color: teal;*/
+height: fit-content;
+margin: auto;
 }
 
 .form {
@@ -60,8 +65,4 @@ body {
     font-weight: bolder;
     margin-top: 2.5%;
     margin-bottom: 1%;
-}
-
-#Main-table1 {
-margin-top: 150px;
 }
