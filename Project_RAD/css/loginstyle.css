@@ -20,16 +20,23 @@ body {
 }
 
 #mainlogo > img {
-    height: 7.5em;
+    height: 10em;
     vertical-align: none;
     margin: auto;
     clear: both;
 }
 
-.buttons {
+.btn-group-vertical {
 /*background-color: teal;*/
 height: fit-content;
 margin: auto;
+}
+
+.btn-group-vertical > a {
+    height: fit-content;
+    width: 85px;
+    text-align: center;
+    margin-top: 5%;
 }
 
 .form {
@@ -65,4 +72,14 @@ margin: auto;
     font-weight: bolder;
     margin-top: 2.5%;
     margin-bottom: 1%;
+}
+
+@media (max-width : 500px) {
+    #mainlogo > img {
+        float: right;
+    }
+
+    .btn-group-vertical {
+    margin-left: 0px;
+    }
 }
