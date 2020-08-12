@@ -4,6 +4,23 @@
     margin: auto;
 }
 
+body {
+    background-color: black;
+}
+
+#mainlogo {
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+}
+
+#mainlogo > img {
+    height: 10em;
+    vertical-align: none;
+    margin: auto;
+    clear: both;
+}
+
+
 .text-center {
     margin: 2.5%;
 }
@@ -23,7 +40,9 @@
 }
 
 .btn {
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
 }
 
 #inputAddressStreet1 {
